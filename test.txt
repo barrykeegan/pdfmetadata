@@ -1,4 +1,4 @@
 <?php
 $hostname = exec('hostname');
-echo $hostname
+echo "<h2>" . $hostname . "</h2>";
 ?>
